@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <style>
+    h1 {
+      color: blue;
+      font-family: Arial;
+    }
+    button {
+      color: yellow;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <h1 style="color:blue;">Test Website for CISC474</h1>
+    <p>If you are reading this, then that means the site is working :)</p>
+    <button type="button" onclick="sayCats()">Click me!</button>
+    <p id="message"></p>
+
+    <script>
+      function sayCats() {
+        document.getElementById("message").innerText = "The creator of this website likes cats.";
+      }
+    </script>
+  </body>
+</html>
